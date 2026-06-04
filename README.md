@@ -253,7 +253,7 @@ Create a `.env` file in the root directory with the following variables:
 NEXT_PUBLIC_GTM=GTM-XXXXXXX
 
 # Your deployed app URL
-NEXT_PUBLIC_APP_URL=https://your-domain.com
+NEXT_PUBLIC_APP_URL=http://localhost:3000
 
 # Telegram Bot Configuration (for contact form notifications)
 TELEGRAM_BOT_TOKEN=your_bot_token_here
@@ -288,7 +288,7 @@ All portfolio content is managed through data files in the `utils/data/` folder:
 ```javascript
 export const personalData = {
   name: "YOUR NAME",
-  profile: "/profile.png", // Path to your profile image
+  profile: "/"C:\Users\anche\Downloads\profile.png", // Path to your profile image
   designation: "Software Developer", // Your job title
   description: "Your bio and introduction...", // About yourself
   email: "your.email@example.com",
